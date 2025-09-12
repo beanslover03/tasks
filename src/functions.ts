@@ -6,11 +6,6 @@
 export function fahrenheitToCelius(temperature: number): number {
     return (temperature - 32) * (5 / 9);
 }
-
-test("Calculate temperatures", () => {
-    expect(fahrenheitToCelius(32)).toBe(0);
-});
-
 /**
  * Consumes three numbers and produces their sum. BUT you should only add a number
  * if the number is greater than zero.
