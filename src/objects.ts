@@ -49,9 +49,13 @@ export function isValid(question: Question, answer: string): boolean {
     }
 
     if (question.type === "multiple_choice_question") {
-        return question.options.includes(answer);
+        for (const option of question.options) {
+            if (answer === option) {
+                return true;
+            }
+        }
+        return false;
     }
-
     return false;
 }
 
