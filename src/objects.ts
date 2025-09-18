@@ -54,7 +54,6 @@ export function isValid(question: Question, answer: string): boolean {
                 return true;
             }
         }
-        return false;
     }
     return false;
 }
