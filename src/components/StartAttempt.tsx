@@ -32,7 +32,9 @@ export function StartAttempt(): React.JSX.Element {
             <div>
                 <span>
                     <Button
-                        onClick={() => setAttempts(attempts + 1)}
+                        onClick={() => {
+                            setAttempts(attempts + 1);
+                        }}
                         disabled={active}
                     >
                         Mulligan
