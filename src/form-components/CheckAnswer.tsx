@@ -15,9 +15,9 @@ export function CheckAnswer({
                 <Form.Control
                     type="string"
                     value={answer}
-                    onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                        setAnswer(event.target.value)
-                    }
+                    onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+                        setAnswer(event.target.value);
+                    }}
                 />
             </Form.Group>
             <div>

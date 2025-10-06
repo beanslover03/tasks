@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Form } from "react-bootstrap";
+//import { Form } from "react-bootstrap";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
